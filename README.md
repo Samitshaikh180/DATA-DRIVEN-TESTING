@@ -44,3 +44,10 @@ Once the scripts and data are configured, the tests are executed. Each row of da
 
 7. Analyze Results:
 After execution, the test results are reviewed to validate whether the application behaved as expected for all input combinations. Any discrepancies between actual and expected results indicate defects.
+
+**OUTPUT** 
+
+username,password,result,message
+user1,pass1,Pass,Login successful
+user2,pass2,Fail,Login failed
+user3,pass3,Error,NoSuchElementException: Unable to locate element
